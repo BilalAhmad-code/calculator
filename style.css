@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* .flex{
+    display: flex;
+} */
+.output{
+    /* height: 100%;
+    width: 100%; */
+    text-align: end;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.btnControls{
+    background-color: yellow;
+    color: black;
+}
+
+#btnEqual{
+    background-color: red;
+    color: white;
+}
+
+th, td {
+    width: 50px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+th,td:hover{
+    cursor: pointer;
+}
+
+.cal{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(4, 4, 77);
+    color: white;
+}

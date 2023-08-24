@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">    
+    <title>calculater</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="cal" id="cal">
+            <table>
+                <thead class="screen" id="screen">
+                    <tr>
+                        <th colspan="4" id="output" class="output"></th>
+                    </tr>
+                </thead>
+                <tbody class="btns" id="btns">
+                <tr class="btnRow1 flex">
+                    <th class="btn btnControls" id="clear">AC</th>
+                    <th class="btn btnControls" id="del">DEL</th>
+                    <th class="btn btnControls func" id="btnMulti">&times</th>
+                    <th class="btn btnControls func" id="btnDivide">&#xF7</th>
+
+                </tr>
+            <!-- </thead> -->
+                <tr class="btnRow2 flex">
+
+                    <td class="btn btnIn" id="btn7">7</td>
+                    <td class="btn btnIn" id="btn8">8</td>
+                    <td class="btn btnIn" id="btn9">9</td>
+                    <th class="btn btnControls func" id="btnSub">-</th>
+                </tr>
+                <tr class="btnRow3 flex">
+                    <td class="btn btnIn" id="btn4">4</td>
+                    <td class="btn btnIn" id="btn5">5</td>
+                    <td class="btn btnIn" id="btn6">6</td>
+                    <th class="btn btnControls func" id="btnAdd">+</th>
+                    
+                </tr>
+                <tr class="btnRow4 flex">
+                    <td class="btn btnIn" id="btn1">1</td>
+                    <td class="btn btnIn" id="btn2">2</td>
+                    <td class="btn btnIn" id="btn3">3</td>
+                    <th class="btn btnControls" id="btnEqual" rowspan="2">=</th>
+
+                </tr>
+                <tr class="btnRow5">
+                    <td class="btn btnIn" id="btn0">0</td>
+                    <td class="btn btnIn" id="btnDot">.</td>
+                    <td class="btn btnIn" id="btn00">00</td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+    </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
